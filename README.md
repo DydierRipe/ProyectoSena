@@ -7,4 +7,4 @@ Integrantes:
   Anderson Veloza Parra
   Dydier Ripe Coronado
   
-proyecto de sena
+proyecto de sena.
