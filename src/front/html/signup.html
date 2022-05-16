@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Sign up - Mercado Privado</title>
+
+		<link rel="stylesheet" href="../css/normalize.css">
+		<link rel="stylesheet" href="../css/signup.css">
+		<link rel="stylesheet" href="../css/style.css">
+	</head>
+	
+	<body>
+		<div class="sign-chart frames">
+			<div class="creating">
+				<h1 class="title">CREATE YOUR<br>ACCOUNT</h1>
+
+				<form class="sign-chart__form">
+					<label>
+						<p class="error-messaje"></p>
+						<input class="username text-space" type="text" placeholder="Enter your username">
+					</label>
+
+					<label>
+						<p class="error-messaje"></p>
+						<input class="email text-space" type="text" placeholder="Enter your email">
+					</label>
+
+					<label>
+						<p class="error-messaje"></p>
+						<input class="password text-space" type="password" placeholder="Enter a password">
+					</label>
+
+					<a href="/login" class="link" rel="noopener noreferer">Already have account?</a>
+				</form>
+
+				<div class="sign-chart__button-sign button">
+					<p class="sign-chart__button-sign__text button-text">sign up</p>
+				</div>
+			</div>
+
+			<div class="verifying">
+				<form class="verification-chart__form">
+					<label>
+						<p class="error-messaje"></p>
+						<input class="verification text-space" type="number" placeholder="Enter your verification code">
+					</label>
+				</form>
+
+				<div class="verify-flex">
+					<div class="verification-chart__button-verify__back button_ver">
+						<p class="v-chart__button-v__text button-text">Go back</p>
+					</div>
+					
+					<div class="verification-chart__button-verify__verify button_ver">
+						<p class="v-chart__button-v__text button-text">Verify</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="../js/signup.js"></script>
+	</body>
+</html>
