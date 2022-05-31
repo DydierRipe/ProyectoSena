@@ -5,7 +5,6 @@ const path = require("node:path"); // use an especific path for save time
 const express = require("express"); // express library (nothing would work without this)
 const algorithm = require("./back js/algorithms.js"); // algoritms writed by us
 const nodemailer = require("nodemailer"); // send emails
-const { join } = require("node:path");
 
 const app = express();
 
