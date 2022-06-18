@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+    font-family: 'Roboto', sans-serif;
+    --background-button: #fbc490;
+    --frames: #fbaa60;
+    --border: #f67b50;
+    --others: rgb(240, 161, 96);
+}
+
+body {
+    background-color: var(--background-button, #FBC490);
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+    box-shadow: 0 0 0px 1000px #000 inset;
+    -webkit-box-shadow: 0 0 0px 1000px #0000 inset;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+.frames {
+    background-color: var(--frames, #FBAA60);
+}
+
+.title {
+    text-align: center;
+}
+
+.error-messaje {
+    display: none;
+    font-weight: bold;
+    color: #F00;
+    margin: 0;
+}
+
+.text-space {
+    background-color: #0000;
+    border: none;
+    border-bottom: 2px solid var(--border, #F67B50);
+
+    transition: .3s border-bottom ease-in-out;
+}
+
+.text-space:focus {
+    outline: none;
+    border-bottom: 2px solid #A82810;
+}
+
+.text-space::placeholder {
+    color: #333;
+}
+
+.link {
+    color: #A82810;
+    font-weight: 600;
+    font-size: 18px
+}
+
+.button {
+    user-select: none;
+    background-color: var(--background-button, #FBC490);
+
+    transition: .2s transform ease, .2s background-color ease;
+}
+
+.button:hover {
+    transform: scale(107%);
+    cursor: pointer;
+}
+
+.button:active {
+    transform: scale(102%);
+    background-color: #b37133;
+}
+
+.button-text {
+    text-align: center;
+    margin: 0;
+    top: 50%;
+    transform: translateY(45%);
+}
