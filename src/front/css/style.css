@@ -10,6 +10,12 @@
 
 body {
     background-color: var(--background-button, #FBC490);
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }
 
 input:-webkit-autofill,
@@ -68,7 +74,7 @@ select:-webkit-autofill:focus {
     user-select: none;
     background-color: var(--background-button, #FBC490);
 
-    transition: .2s transform ease, .2s background-color ease;
+    transition: .2s transform ease, .2s background-color ease, 60s filter ease;
 }
 
 .button:hover {
