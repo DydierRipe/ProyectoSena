@@ -1,11 +1,11 @@
 # ProyectoSena
 el proyecto de sena todo fachero
 Integrantes:
-  Neidy Meneses Melo\n
-  Anthonella Medina Fajardo\n
-  Jake Mauricio Pulido\n
-  Anderson Veloza Parra\n
-  Dydier Ripe Coronado\n
+  Neidy Meneses Melo
+  Anthonella Medina Fajardo
+  Jake Mauricio Pulido
+  Anderson Veloza Parra
+  Dydier Ripe Coronado
   
 Proyecto de sena.
 
