@@ -9,7 +9,6 @@ header {
 
 .tit-log {
     display: flex;
-    position: absolute;
     width: 400px;
 }
 
@@ -39,7 +38,7 @@ header {
     position: relative;
     font-size: 20px;
     padding-left: 50px;
-    margin: 0 auto;
+    margin: 15px;
 }
 
 #input-box > span {
@@ -51,10 +50,15 @@ header {
 }
 
 #search-bar {
-    width: 300px;
+    width: 700px;
     height: 50px;
     display: block;
     float: none;
+}
+
+#right-icons {
+    display: block;
+    margin: 30px auto 10px 300px;
 }
 
 .slideshows {
