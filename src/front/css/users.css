@@ -1,0 +1,31 @@
+.users-table {
+    display: grid;
+    margin: 30px auto;
+    width: fit-content;
+    grid-template-columns: 15vw 15vw 50px 30vw;
+    border: 2px solid var(--border);
+}
+
+.user, .label {
+    min-height: 70px;
+    width: 100%;
+    padding-top: 20px;
+    text-align: center;
+
+    border: 2px solid var(--border);
+    word-wrap: break-word;
+}
+
+.label {
+    padding-top: 10px;
+    height: 35px;
+    min-height: 0px;
+
+    background-color: var(--frames);
+}
+
+.actions {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    padding: 0;
+}
