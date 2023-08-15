@@ -1,0 +1,13 @@
+.tit-log {
+    margin: auto;
+}
+
+.content {
+    width: 100%;
+}
+
+.new-product {
+    width: 70vw;
+    margin: 60px auto;
+    background-color: var(--frames);
+}
