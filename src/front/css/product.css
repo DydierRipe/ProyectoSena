@@ -1,0 +1,41 @@
+.content {
+    padding: 30px;
+    margin: 60px auto;
+    width: 65%;
+    height: fit-content;
+}
+
+.comments-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.comment-box {
+    width: 65%;
+    padding: 30px;
+    
+}
+
+.comment-form {
+    margin-bottom: 20px;
+}
+
+.comment-form textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid var(--border, #76b9f8);
+    resize: none;
+}
+
+.submit-comment {
+    background-color: var(--background-button, #FBC490);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/*.comment-list {
+    Styling for comments in the list 
+}*/

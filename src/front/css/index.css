@@ -1,0 +1,177 @@
+.get-out {
+    width: 300px;
+    height: 70px;
+    border-radius: 10px;
+    border: 1px #000 solid;
+
+    margin: 30px auto;
+
+    margin-bottom: 30px;
+}
+
+.get-out__text {
+    font-size: 30px;
+}
+
+.carousel {
+    background-color: antiquewhite;
+
+    height: fit-content;
+    width: 100vw;
+    height: 464px;
+}
+
+.panorama-images {
+    display: flex;
+    max-width: 1450px;
+    margin: auto;
+    position: absolute;
+}
+
+.promotions {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.promo-container {
+    width: 250px;
+    height: 400px;
+    margin: auto;
+}
+
+.promo-container > h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.image-promo {
+    width: 240px;
+    margin: 5px;
+    margin-top: 28px;
+    background-color: #83838336;
+}
+
+.promo-center {
+    transform: scale(1.2);
+    transition: transform .5s;
+}
+
+.promo-left {
+    transition: transform .5s;
+}
+
+.promo-left:hover {
+    transform: scale(1.2);
+}
+
+.promo-right {
+    transition: transform .5s;
+}
+
+.promo-right:hover {
+    transform: scale(1.2);
+}
+
+.promo-title {
+    margin-top: 40px;
+    text-align: center;
+
+    font-size: 40px;
+}
+
+.product-gallery {
+    width: min-content;
+    margin: auto;
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.product {
+    width: 250px;
+    height: 300px;
+    margin: 30px;
+
+    transition: transform .5s;
+}
+
+.product:hover {
+    transform: scale(1.1);
+}
+
+.product-image {
+    width: 240px;
+}
+
+.values-gallery {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 150px;
+}
+
+.value-container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+
+    border: #000 solid 2px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.text-display-image {
+    width: 100px;
+    margin: 50px auto;
+    display: block;
+    transition: filter .5s;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #000A;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.value-container:hover .overlay {
+    height: 100%;
+}
+
+.value-container:hover .text-display-image {
+    filter: blur(3px);
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.page-third-section {
+    background-color: #eeeeee;
+}
+
+.page-fourth-section {
+    background-color: #dadada;
+    height: 550px;
+    padding-top: 100px;
+}
+
+.get-out {
+    width: 300px;
+    height: 300px;
+    background-color:black ;
+}
