@@ -4,7 +4,7 @@ const price = document.querySelector(".price");
 const description = document.querySelector(".description");
 const filter = document.querySelector(".filter-container");
 const buyButton = document.querySelector(".buy-button");
-const gallery = document.querySelector(".product-gallery")
+const gallery = document.querySelector(".product-gallery");
 
 const userString = localStorage.getItem("user"); // user info
 
