@@ -1,0 +1,74 @@
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Estilos para la sección de preguntas frecuentes */
+.faq-section {
+    margin-top: 20px;
+
+    padding: 20px;
+    background-color: 
+    #dee1ff;
+}
+
+.faq-question {
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.faq-answer {
+    display: none;
+    padding: 10px;
+    background-color: #9965ca;
+
+    display: block;
+}
+
+
+
+/* Estilos para el formulario de comentarios */
+.comment-section {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.comment-section h3 {
+    margin-bottom: 10px;
+}
+
+#name,
+#comment {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
